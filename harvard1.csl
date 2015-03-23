@@ -281,7 +281,7 @@
         </else>
       </choose>
       <choose>
-          <if type="webpage article-journal">
+          <if type="webpage article-journal" match="any">
               <text prefix=" " macro="access" suffix="."/>
           </if>
       </choose>
